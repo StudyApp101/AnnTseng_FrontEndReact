@@ -1,0 +1,52 @@
+import React from 'react';
+import { Button } from '../../globalStyles';
+import { 
+    FooterContainer, 
+    // FooterSubscription, 
+    // FooterSubHeading, 
+    // FooterSubText,
+    // Form,
+    // FormInput,
+    FooterLinksContainer,
+    FooterLinksWrapper,
+    FooterLinksItems,
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcon
+} from './Footer.elements';
+
+const footer = () => {
+    return (
+        <FooterContainer>
+            <FooterLinksContainer>
+                <FooterLinksWrapper>
+                    <FooterLinksItems>
+                        <FooterLink to='/OurStory'>Our Story</FooterLink>
+                    </FooterLinksItems>
+                    <FooterLinksItems>
+                        <FooterLink to='/'>Feedback</FooterLink>
+                    </FooterLinksItems>
+                    <FooterLinksItems>
+                        <FooterLink to='/'>Contact Us</FooterLink>
+                    </FooterLinksItems>
+                </FooterLinksWrapper>
+                <FooterLinksWrapper>
+                </FooterLinksWrapper>
+            </FooterLinksContainer>
+            <SocialMedia>
+                <SocialMediaWrap>
+                    <SocialLogo to="/">
+                        <SocialIcon/>
+                        Noteable
+                    </SocialLogo>
+                    <WebsiteRights> Noteable 2021</WebsiteRights>
+                </SocialMediaWrap>
+            </SocialMedia>
+        </FooterContainer>
+    );
+};
+
+export default footer;
