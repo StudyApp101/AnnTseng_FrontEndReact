@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import EmilySong from '../../images/Members/EmilySong.jpeg';
 
 export const Heading = styled.h1`
   text-align: center;
@@ -73,40 +74,61 @@ export const PCDiv = styled.div`
   justify-content: center;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 10%;
 
   @media screen and (max-width: 820px) {
     max-width: 100%;
     display: inline-block;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 20%;
   }
 `;
 
 
 export const PersonCard = styled.button`
     text-align: center;
-    padding: 2rem 2rem;
     border: 0;
     width: 100%;
     box-shadow: 0px 2px 15px #FCAECD;
     border-radius: 15px;
+    border: 0.5px solid #8EC2FE;
     background: #ffffff;
     white-space: nowrap;
     color: #000000;
-    font-size: 1.25rem;
     outline: none;
     cursor: pointer;
     transition: all 0.2s ease-out;
+    padding: 2rem;
     margin: 2rem;
     &:hover {
-        box-shadow: 0px 2px 15px #FCAECD;
-        transform: translateY(-7px);
+        box-shadow: 0px 2px 15px #8EC2FE;
         background: #ffffff;
+        border: 0.5px solid #8EC2FE;
     }
     
     @media screen and (max-width: 100%) {
       width: 100%;
     }
+`;
+
+export const PCFrontName = styled.h1`
+  margin-top: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  white-space: normal;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 0.5rem;
+`;
+
+export const PCFrontRole = styled.p`
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.875rem;
+  white-space: normal;
+  text-align: left;
+  width: 100%;
+`;
+
+export const ProfileImgWrapper = styled.div`
+  width: 8rem;
+  clip-path: circle(60px at center);
+  border: 0.5px solid #8EC2FE;
 `;

@@ -9,12 +9,17 @@ import {
     ImgWrapper,
     Img,
     PersonCard,
-    PCDiv
+    PCDiv,
+    PCFrontRole,
+    PCFrontName,
+    ProfileImgWrapper
 } from './OurStory.elements';
 
 const OurStory = ({
     img, 
-    alt
+    alt,
+    imgES,
+    altES
 }) => {
     return (
         <>
@@ -37,24 +42,49 @@ const OurStory = ({
                             <ImgWrapper>
                                 <Img src={img} alt={alt} />
                             </ImgWrapper>
-                        </InfoColumn>         
+                        </InfoColumn> 
+                        <InfoColumn>
+                            <Heading> Meet the Team </Heading>
+                        </InfoColumn>     
                     </InfoRow>   
                 </Container>
+
+                <PCDiv>
+                    <PersonCard>
+                        <ProfileImgWrapper>
+                            <Img src={img} alt={alt} />
+                        </ProfileImgWrapper>
+                        <PCFrontName>
+                            First Last
+                        </PCFrontName>
+                        <PCFrontRole>
+                            Role
+                        </PCFrontRole>
+                    </PersonCard>
+                    <PersonCard>
+                        <ProfileImgWrapper>
+                            <Img src={img} alt={alt} />
+                        </ProfileImgWrapper>
+                        <PCFrontName>
+                            First Last
+                        </PCFrontName>
+                        <PCFrontRole>
+                            Role
+                        </PCFrontRole>
+                    </PersonCard>
+                    <PersonCard>
+                        <ProfileImgWrapper>
+                            <Img src={img} alt={alt} />
+                        </ProfileImgWrapper>
+                        <PCFrontName>
+                            First Last
+                        </PCFrontName>
+                        <PCFrontRole>
+                            Role
+                        </PCFrontRole>
+                    </PersonCard>
+                </PCDiv>
             </InfoSec>
-            <PCDiv>
-                                <PersonCard> 
-                                    Person
-                                </PersonCard>
-                                <PersonCard> 
-                                    Person
-                                </PersonCard>
-                                <PersonCard> 
-                                    Person
-                                </PersonCard>
-                                <PersonCard> 
-                                    Person
-                                </PersonCard>
-                    </PCDiv>  
         </>
     );
 };
