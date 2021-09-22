@@ -68,67 +68,50 @@ export const Img = styled.img`
   max-height: 500px;
 `;
 
-export const PCDiv = styled.div`
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
+//Card things below!
 
-  @media screen and (max-width: 820px) {
-    max-width: 100%;
-    display: inline-block;
-    justify-content: center;
+export const ProfileWrapperFlex = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`;
+
+export const ProfileContainer = styled.button`
+  overflow: hidden;
+  box-shadow: 0px 2px 15px #DDDDDD;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  position: relative;
+  width: 280px;
+  margin-bottom: 2.5rem;
+
+  padding-bottom: 2rem;
+
+  border:none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+        box-shadow: 0px 2px 15px #8EC2FE;
+        background-color: #ffffff;
+        border: 1px solid #8EC2FE;
   }
 `;
 
-
-export const PersonCard = styled.button`
-    text-align: center;
-    border: 0;
-    width: 100%;
-    box-shadow: 0px 2px 15px #FCAECD;
-    border-radius: 15px;
-    border: 0.5px solid #8EC2FE;
-    background: #ffffff;
-    white-space: nowrap;
-    color: #000000;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-    padding: 2rem;
-    margin: 2rem;
-    &:hover {
-        box-shadow: 0px 2px 15px #8EC2FE;
-        background: #ffffff;
-        border: 0.5px solid #8EC2FE;
-    }
-    
-    @media screen and (max-width: 100%) {
-      width: 100%;
-    }
-`;
-
-export const PCFrontName = styled.h1`
-  margin-top: 0.5rem;
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.875rem;
-  white-space: normal;
-  text-align: left;
-  width: 100%;
-  padding-bottom: 0.5rem;
-`;
-
-export const PCFrontRole = styled.p`
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.875rem;
-  white-space: normal;
-  text-align: left;
-  width: 100%;
-`;
-
-export const ProfileImgWrapper = styled.div`
+export const ProfileImage = styled.img `
   width: 8rem;
   clip-path: circle(60px at center);
-  border: 0.5px solid #8EC2FE;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+`;
+
+export const ProfileName = styled.h1`
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+`;
+
+export const ProfileDescription = styled.p`
+  font-size: 1rem;
 `;

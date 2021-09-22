@@ -1,3 +1,5 @@
+import { Button } from '@material-ui/core';
+import { Description } from '@material-ui/icons';
 import React from 'react';
 import {Container} from '../../globalStyles';
 import { 
@@ -8,11 +10,11 @@ import {
     MissionText,
     ImgWrapper,
     Img,
-    PersonCard,
-    PCDiv,
-    PCFrontRole,
-    PCFrontName,
-    ProfileImgWrapper
+    ProfileWrapperFlex,
+    ProfileImage,
+    ProfileName,
+    ProfileDescription,
+    ProfileContainer,
 } from './OurStory.elements';
 
 const OurStory = ({
@@ -42,51 +44,24 @@ const OurStory = ({
                             <ImgWrapper>
                                 <Img src={img} alt={alt} />
                             </ImgWrapper>
-                        </InfoColumn> 
-                        <InfoColumn>
-                            <Heading> Meet the Team </Heading>
                         </InfoColumn>     
                     </InfoRow>   
                 </Container>
-
-                <PCDiv>
-                    <PersonCard>
-                        <ProfileImgWrapper>
-                            <Img src={img} alt={alt} />
-                        </ProfileImgWrapper>
-                        <PCFrontName>
-                            First Last
-                        </PCFrontName>
-                        <PCFrontRole>
-                            Role
-                        </PCFrontRole>
-                    </PersonCard>
-                    <PersonCard>
-                        <ProfileImgWrapper>
-                            <Img src={img} alt={alt} />
-                        </ProfileImgWrapper>
-                        <PCFrontName>
-                            First Last
-                        </PCFrontName>
-                        <PCFrontRole>
-                            Role
-                        </PCFrontRole>
-                    </PersonCard>
-                    <PersonCard>
-                        <ProfileImgWrapper>
-                            <Img src={img} alt={alt} />
-                        </ProfileImgWrapper>
-                        <PCFrontName>
-                            First Last
-                        </PCFrontName>
-                        <PCFrontRole>
-                            Role
-                        </PCFrontRole>
-                    </PersonCard>
-                </PCDiv>
             </InfoSec>
+            <InfoColumn>
+                <Heading> Meet the Team </Heading>
+            </InfoColumn> 
+            <ProfileWrapperFlex>
+                <ProfileContainer>
+                    <ProfileImage src={imgES} alt={altES} />
+                    <ProfileName> First Last </ProfileName>
+                    <ProfileDescription> 
+                        Role XYZ
+                    </ProfileDescription>
+                </ProfileContainer>
+            </ProfileWrapperFlex>
+
         </>
     );
 };
-
 export default OurStory;
