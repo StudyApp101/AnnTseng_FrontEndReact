@@ -84,24 +84,24 @@ export const ProfileContainer = styled.button`
   border: 1px solid white;
   position: relative;
   width: 280px;
+  
   margin-bottom: 2.5rem;
 
   padding-bottom: 2rem;
-
-  border:none;
   cursor: pointer;
-  transition: all 0.3s ease-out;
+  transition: all 0.1s ease-out;
 
   &:hover {
         box-shadow: 0px 2px 15px #8EC2FE;
         background-color: #ffffff;
         border: 1px solid #8EC2FE;
+        margin-bottom: 2.5rem;
   }
 `;
 
 export const ProfileImage = styled.img `
   width: 8rem;
-  clip-path: circle(60px at center);
+  clip-path: circle(3.75rem at center);
   margin-top: 2rem;
   margin-bottom: 2rem;
 `;

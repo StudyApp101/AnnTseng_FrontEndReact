@@ -50,17 +50,18 @@ const OurStory = ({
             </InfoSec>
             <InfoColumn>
                 <Heading> Meet the Team </Heading>
-            </InfoColumn> 
-            <ProfileWrapperFlex>
-                <ProfileContainer>
-                    <ProfileImage src={imgES} alt={altES} />
-                    <ProfileName> First Last </ProfileName>
-                    <ProfileDescription> 
-                        Role XYZ
-                    </ProfileDescription>
-                </ProfileContainer>
-            </ProfileWrapperFlex>
-
+            </InfoColumn>
+            <InfoColumn>
+                <ProfileWrapperFlex>
+                    <ProfileContainer>
+                        <ProfileImage src={imgES} alt={altES} />
+                        <ProfileName> First Last </ProfileName>
+                        <ProfileDescription> 
+                            Role XYZ
+                        </ProfileDescription>
+                    </ProfileContainer>
+                </ProfileWrapperFlex>
+            </InfoColumn>
         </>
     );
 };
