@@ -333,7 +333,6 @@ const OurStory = ({
                     </ProfileDescription>
                 </Popup>
 
-
         </>
     );
 };
