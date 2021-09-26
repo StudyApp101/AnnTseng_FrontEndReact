@@ -329,7 +329,7 @@ const OurStory = ({
                         {textSKa3}
                     </ProfileDescription>
                     <ProfileDescription>
-                        {linkSK}
+                        {linkSKa}
                     </ProfileDescription>
                 </Popup>
 
