@@ -103,8 +103,7 @@ const OurStory = ({
                     </InfoRow>   
                 </Container>
             </InfoSec>
-            <Heading> Meet the Team </Heading>
-
+                <Heading> Meet the Team </Heading>
                 <ProfileWrapperFlex>
                     {/* 1. Shikha Kandpal Front*/}
                     <ProfileContainer onClick={() => setButtonPopup1(true)}>
@@ -120,7 +119,7 @@ const OurStory = ({
                         <ProfileImage src={imgES} alt={altES} />
                         <ProfileName> Emily Song </ProfileName>
                         <ProfileDescription> 
-                            UX and Graphic Designer
+                            UX Designer
                         </ProfileDescription>
                     </ProfileContainer>
 
@@ -128,7 +127,7 @@ const OurStory = ({
                     <ProfileContainer onClick={() => setButtonPopup3(true)}>
                         <ProfileImage src={imgAT} alt={altAT} />
                         <ProfileName> Ann Tseng </ProfileName>
-                        <ProfileDescription> 
+                        <ProfileDescription>
                             UX and Frontend Developer
                         </ProfileDescription>
                     </ProfileContainer>

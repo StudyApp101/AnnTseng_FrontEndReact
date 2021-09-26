@@ -78,7 +78,6 @@ export const ProfileWrapperFlex = styled.div`
 
 export const ProfileContainer = styled.button`
   margin: 16px;
-  overflow: hidden;
   box-shadow: 0px 2px 15px #DDDDDD;
   background-color: white;
   border-radius: 15px;
@@ -101,10 +100,8 @@ export const ProfileContainer = styled.button`
 `;
 
 export const ProfileImage = styled.img `
-  width: 8rem;
-  clip-path: circle(3.75rem at center);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  width: 128px;
+  clip-path: circle(60px at center);
 `;
 
 export const ProfileName = styled.h1`

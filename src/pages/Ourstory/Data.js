@@ -21,9 +21,9 @@ export const ImageAndAlt = {
     //3. Ann Tseng
     imgAT: require('../../images/Members/AnnTseng.jpeg').default,
     altAT: 'A profile picture of a girl.',
-    textAT1: <p><b>Role:</b> UX Engineer </p>,
+    textAT1: <p><b>Role:</b> UX and Frontend Developer </p>,
     textAT2: <p><b>Noteable for:</b> User Interface Design and Prototyping, Front-end Development</p>, 
-    textAT3: <p><b>Fun fact:</b> The only time I’ve ever been to Japan was because of a layover flight, so I would love to go to Japan for real in the future.</p>,
+    textAT3: <p><b>Fun fact:</b> The only time I’ve ever been to Japan was because of a layover flight, so I would love to go to Japan for real in the future!</p>,
     linkAT: <p><b>Connect: </b><a href="https://www.linkedin.com/in/annct/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
 
     //4. Arooj Saeed
