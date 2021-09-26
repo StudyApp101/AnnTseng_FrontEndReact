@@ -77,6 +77,7 @@ export const ProfileWrapperFlex = styled.div`
 `;
 
 export const ProfileContainer = styled.button`
+  margin: 16px;
   overflow: hidden;
   box-shadow: 0px 2px 15px #DDDDDD;
   background-color: white;
