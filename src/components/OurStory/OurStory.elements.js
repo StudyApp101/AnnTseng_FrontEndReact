@@ -101,6 +101,7 @@ export const ProfileContainer = styled.button`
 
 export const ProfileImage = styled.img `
   width: 128px;
+  height: 170px;
   clip-path: circle(60px at center);
 `;
 
