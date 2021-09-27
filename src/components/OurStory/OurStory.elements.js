@@ -14,7 +14,7 @@ export const Heading = styled.h1`
 export const MissionText = styled.p`
   text-align: center;
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 4vh;
+  margin-bottom: 13vh;
   font-size: 1rem;
   line-height: 1.1;
   color: #000000;
