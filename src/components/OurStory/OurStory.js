@@ -141,10 +141,6 @@ const OurStory = ({
                         </ProfileDescription>
                     </ProfileContainer>
 
-                </ProfileWrapperFlex>
-
-                <ProfileWrapperFlex>
-
                     {/* 3. Ann Tseng Front*/}
                     <ProfileContainer onClick={() => setButtonPopup3(true)}>
                         <ProfileImage src={imgAT} alt={altAT} />
@@ -180,6 +176,7 @@ const OurStory = ({
                             ML Developer
                         </ProfileDescription>
                     </ProfileContainer>
+
                 </ProfileWrapperFlex>
 
                 {/* 1. Shikha Kandpal Back*/}
