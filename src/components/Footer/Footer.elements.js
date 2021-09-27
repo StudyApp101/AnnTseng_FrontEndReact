@@ -111,6 +111,7 @@ export const SocialLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
+//Website Logo
 export const SocialIcon = styled(FaMagento)`
   margin-right: 10px;
 `;
