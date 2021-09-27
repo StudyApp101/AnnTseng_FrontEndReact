@@ -4,3 +4,4 @@ export { default as InfoSection } from './InfoSection/InfoSection';
 export { default as Signup } from './Signup/Signup';
 export { default as Login } from './Login/Login';
 export { default as OurStory } from './OurStory/OurStory';
+export { default as Upload } from './Upload/Upload';
