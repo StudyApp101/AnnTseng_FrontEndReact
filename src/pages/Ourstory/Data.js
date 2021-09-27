@@ -51,7 +51,7 @@ export const ImageAndAlt = {
     linkAN: <p><b>Connect: </b><a href="https://www.linkedin.com/in/anithanarnavaram/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
 
     //7. Priyanka Gupta
-    imgPG: require('../../images/Members/ShikhaKandpal.jpeg').default,
+    imgPG: require('../../images/Members/PriyankaGupta.jpeg').default,
     altPG: 'A profile picture of a girl.',
     textPG1: <p><b>Role:</b> Lead ML Developer </p>,
     textPG2: <p><b>Noteable for:</b> NLP, Development(Flask)</p>, 
@@ -59,7 +59,7 @@ export const ImageAndAlt = {
     linkPG: <p><b>Connect: </b><a href="https://www.linkedin.com/in/priyanka-gupta-056015137/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
 
     //8. Seema Kanaje
-    imgSKa: require('../../images/Members/ShikhaKandpal.jpeg').default,
+    imgSKa: require('../../images/Members/SeemaKanaje.jpeg').default,
     altSKa: 'A profile picture of a girl.',
     textSKa1: <p><b>Role:</b> ML Developer</p>,
     textSKa2: <p><b>Noteable for:</b> Fill this in soon... </p>, 

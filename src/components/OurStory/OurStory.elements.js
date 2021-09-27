@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import EmilySong from '../../images/Members/EmilySong.jpeg';
 
 export const Heading = styled.h1`
   text-align: center;
