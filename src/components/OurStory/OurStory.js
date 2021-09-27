@@ -114,44 +114,6 @@ const OurStory = ({
                         </ProfileDescription>
                     </ProfileContainer>
 
-                    {/* 2. Emily Song Front*/}
-                    <ProfileContainer onClick={() => setButtonPopup2(true)}>
-                        <ProfileImage src={imgES} alt={altES} />
-                        <ProfileName> Emily Song </ProfileName>
-                        <ProfileDescription> 
-                            UX Designer
-                        </ProfileDescription>
-                    </ProfileContainer>
-
-                    {/* 3. Ann Tseng Front*/}
-                    <ProfileContainer onClick={() => setButtonPopup3(true)}>
-                        <ProfileImage src={imgAT} alt={altAT} />
-                        <ProfileName> Ann Tseng </ProfileName>
-                        <ProfileDescription>
-                            UX and Frontend Developer
-                        </ProfileDescription>
-                    </ProfileContainer>
-
-                    {/* 4. Arooj Saeed Front*/}
-                    <ProfileContainer onClick={() => setButtonPopup4(true)}>
-                        <ProfileImage src={imgAS} alt={altAS} />
-                        <ProfileName> Arooj Saeed </ProfileName>
-                        <ProfileDescription> 
-                            Backend Developer
-                        </ProfileDescription>
-                    </ProfileContainer>
-                </ProfileWrapperFlex>
-
-                <ProfileWrapperFlex>
-                    {/* 5. Meha Goyal Front*/}
-                    <ProfileContainer onClick={() => setButtonPopup5(true)}>
-                        <ProfileImage src={imgMG} alt={altMG} />
-                        <ProfileName> Meha Goyal </ProfileName>
-                        <ProfileDescription> 
-                            Backend and Frontend Developer
-                        </ProfileDescription>
-                    </ProfileContainer>
-
                     {/* 6. Anitha Narnavaram Front*/}
                     <ProfileContainer onClick={() => setButtonPopup6(true)}>
                         <ProfileImage src={imgAN} alt={altAN} />
@@ -167,6 +129,46 @@ const OurStory = ({
                         <ProfileName> Priyanka Gupta </ProfileName>
                         <ProfileDescription> 
                             Lead ML Developer
+                        </ProfileDescription>
+                    </ProfileContainer>
+
+                    {/* 2. Emily Song Front*/}
+                    <ProfileContainer onClick={() => setButtonPopup2(true)}>
+                        <ProfileImage src={imgES} alt={altES} />
+                        <ProfileName> Emily Song </ProfileName>
+                        <ProfileDescription> 
+                            UX Designer
+                        </ProfileDescription>
+                    </ProfileContainer>
+
+                </ProfileWrapperFlex>
+
+                <ProfileWrapperFlex>
+
+                    {/* 3. Ann Tseng Front*/}
+                    <ProfileContainer onClick={() => setButtonPopup3(true)}>
+                        <ProfileImage src={imgAT} alt={altAT} />
+                        <ProfileName> Ann Tseng </ProfileName>
+                        <ProfileDescription>
+                            UX and Frontend Developer
+                        </ProfileDescription>
+                    </ProfileContainer>
+
+                    {/* 5. Meha Goyal Front*/}
+                    <ProfileContainer onClick={() => setButtonPopup5(true)}>
+                        <ProfileImage src={imgMG} alt={altMG} />
+                        <ProfileName> Meha Goyal </ProfileName>
+                        <ProfileDescription> 
+                            Backend and Frontend Developer
+                        </ProfileDescription>
+                    </ProfileContainer>
+
+                    {/* 4. Arooj Saeed Front*/}
+                    <ProfileContainer onClick={() => setButtonPopup4(true)}>
+                        <ProfileImage src={imgAS} alt={altAS} />
+                        <ProfileName> Arooj Saeed </ProfileName>
+                        <ProfileDescription> 
+                            Backend Developer
                         </ProfileDescription>
                     </ProfileContainer>
 

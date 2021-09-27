@@ -1,6 +1,6 @@
 export const ImageAndAlt = {
-    img: require('../../images/svg-1.svg').default,
-    alt: 'Drawing of an opened computer placed next to plant.',
+    img: require('../../images/svg-3.svg').default,
+    alt: 'Drawing of a girl sitting and looking up.',
 
     //1. Emily Song
     imgES: require('../../images/Members/EmilySong.jpeg').default,
