@@ -35,7 +35,7 @@ export const ImageAndAlt = {
     linkAS: <p><b>Connect: </b><a href="https://www.linkedin.com/in/arooj-saeed-4b2a4b1a2/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
 
     //5. Meha Goyal
-    imgMG: require('../../images/Members/ShikhaKandpal.jpeg').default,
+    imgMG: require('../../images/Members/MehaGoyal.jpeg').default,
     altMG: 'A profile picture of a girl.',
     textMG1: <p><b>Role:</b> Backend and Frontend Developer</p>,
     textMG2: <p><b>Noteable for:</b> Development (Python, Flask, React.js)</p>, 
@@ -64,7 +64,7 @@ export const ImageAndAlt = {
     textSKa1: <p><b>Role:</b> ML Developer</p>,
     textSKa2: <p><b>Noteable for:</b> Fill this in soon... </p>, 
     textSKa3: <p><b>Fun fact:</b> Fill this in soon...</p>,
-    linkSKa: <p><b>Connect: </b><a href="https://www.linkedin.com/in/shikha-kandpal/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
+    linkSKa: <p><b>Connect: </b><a href="https://www.linkedin.com/in/seema-sharanappa-kanaje" rel="noreferrer" target="_blank"> LinkedIn </a></p>,
 
 
 

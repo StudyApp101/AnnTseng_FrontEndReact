@@ -321,12 +321,12 @@ const OurStory = ({
                     <ProfileDescription>
                         {textSKa1}
                     </ProfileDescription>
-                    <ProfileDescription>
+                    {/* <ProfileDescription>
                         {textSKa2}    
                     </ProfileDescription>
                     <ProfileDescription>
                         {textSKa3}
-                    </ProfileDescription>
+                    </ProfileDescription> */}
                     <ProfileDescription>
                         {linkSKa}
                     </ProfileDescription>
