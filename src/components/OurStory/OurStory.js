@@ -157,7 +157,7 @@ const OurStory = ({
                         <ProfileImage src={imgAN} alt={altAN} />
                         <ProfileName> Anitha Narnavaram </ProfileName>
                         <ProfileDescription> 
-                            Backend Developer 
+                            Lead Backend Developer 
                         </ProfileDescription>
                     </ProfileContainer>
 
@@ -166,7 +166,7 @@ const OurStory = ({
                         <ProfileImage src={imgPG} alt={altPG} />
                         <ProfileName> Priyanka Gupta </ProfileName>
                         <ProfileDescription> 
-                            ML Developer
+                            Lead ML Developer
                         </ProfileDescription>
                     </ProfileContainer>
 
