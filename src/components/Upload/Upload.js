@@ -3,6 +3,9 @@ import React from 'react';
 import {
     TextDiv,
     UploadText,
+    InputDiv,
+    InputFile,
+    SubmitButton
 } from './Upload.elements';
 
 const Upload = ({
@@ -15,7 +18,12 @@ const Upload = ({
                 Please select a PDF file to work from:
                 </UploadText>
             </TextDiv>
-
+            <InputDiv>
+                <InputFile type="file" name="upload" class="random" accept=".pdf"/>
+            </InputDiv>
+            <InputDiv>
+                <SubmitButton> Upload </SubmitButton>
+            </InputDiv>
         </>
     );
 };
