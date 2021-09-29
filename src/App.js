@@ -20,6 +20,7 @@ function App() {
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/login" exact component={Login} />
+          <Route path="/signup" exact component={Signup} />
           <Route path="/OurStory" exact component={OurStory} />
           <Footer />
         </>

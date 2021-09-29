@@ -9,5 +9,10 @@ export const homeObjOne = {
     lightText: false, 
     img: require('../../images/svg-1.svg').default,
     alt: 'Computer on a desk next to a plant.',
-    start: ''
+    start: '',
+    vid: ''
+};
+
+export const videoSection = {
+    vid: 'https://www.youtube.com/embed/Y5reAFkLAtY?controls=0'
 };
