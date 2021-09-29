@@ -10,7 +10,8 @@ export const TextDiv = styled.div`
 export const UploadText = styled.p`
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    margin: 13.9vw;
+    margin-top: 13.9vw;
+    margin-bottom: 5vw;
 `;
 
 export const InputDiv = styled.div`
@@ -46,3 +47,4 @@ export const SubmitButton = styled.button`
         width: 100%;
     }
 `;
+

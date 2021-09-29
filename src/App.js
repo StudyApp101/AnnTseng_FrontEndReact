@@ -15,18 +15,17 @@ function App() {
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <div>
-          <Route path="/upload" exact component={UploadPage} />
-        </div>
-        <div>
+        <Route path="/upload" exact component={UploadPage} />
+        <>
           <Navbar />
           <Route path="/" exact component={Home} />
           <Route path="/login" exact component={Login} />
           <Route path="/OurStory" exact component={OurStory} />
           <Footer />
-        </div>
+        </>
       </Switch>
     </Router>
+    
   );
 }
 

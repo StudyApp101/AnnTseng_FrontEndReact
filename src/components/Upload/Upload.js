@@ -22,7 +22,7 @@ const Upload = ({
                 <InputFile type="file" name="upload" class="random" accept=".pdf"/>
             </InputDiv>
             <InputDiv>
-                <SubmitButton> Upload </SubmitButton>
+                <SubmitButton> Submit </SubmitButton>
             </InputDiv>
         </>
     );
