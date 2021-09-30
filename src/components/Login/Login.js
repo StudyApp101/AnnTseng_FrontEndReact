@@ -32,7 +32,7 @@ const Login = ({
                             <LoginWrapper> 
                                 <Form>
                                     <InterFormWrapper>
-                                        <Heading>Log In</Heading>
+                                        <Heading>Create an Account</Heading>
                                     </InterFormWrapper>
                                     <InterFormInputWrapper>
                                         <EandPIndicator for="email">Email:</EandPIndicator>
