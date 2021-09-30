@@ -11,8 +11,6 @@ import {
     Img,
 } from './Feedback.elements';
 const Feedback = ({
-    img, 
-    alt,
 }) => {
 
     return (

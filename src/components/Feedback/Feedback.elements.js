@@ -51,18 +51,3 @@ export const InfoColumn = styled.div`
     justify-content: center;
   }
 `;
-
-export const ImgWrapper = styled.div`
-  max-width: 100%;
-  display: flex;
-  justify-content: flex-start;
-`;
-
-export const Img = styled.img`
-  padding-right: 0;
-  border: 0;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-  max-height: 500px;
-`;
