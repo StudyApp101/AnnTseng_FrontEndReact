@@ -5,6 +5,7 @@ import Home from './pages/HomePage/Home';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import OurStory from './pages/Ourstory/Ourstory';
+import Feedback from './pages/Feedback/Feedback';
 import UploadPage from './pages/UploadPage/UploadPage';
 import { Navbar, Footer } from './components';
 import ScrollToTop from './components/ScrollToTop';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" exact component={Login} />
           <Route path="/signup" exact component={Signup} />
           <Route path="/OurStory" exact component={OurStory} />
+          <Route path="/Feedback" exact component={Feedback} />
           <Footer />
         </>
       </Switch>

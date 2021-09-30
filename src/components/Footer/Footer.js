@@ -21,10 +21,10 @@ const footer = () => {
                         <FooterLink to='/OurStory'>Our Story</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
-                        <FooterLink to='/'>Feedback</FooterLink>
+                        <FooterLink to='/Feedback'>Feedback</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
-                        <FooterLink to='/'>Contact Us</FooterLink>
+                        <FooterLink to='/ContactUs'>Contact Us</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
