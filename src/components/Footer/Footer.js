@@ -1,4 +1,6 @@
 import React from 'react';
+import { default as logo } from '../../images/logo-nobackground2.svg';
+
 import { 
     FooterContainer, 
     FooterLinksContainer,
@@ -33,7 +35,7 @@ const footer = () => {
             <SocialMedia>
                 <SocialMediaWrap>
                     <SocialLogo to="/">
-                        <SocialIcon/>
+                        <SocialIcon src={logo} />
                         Noteable
                     </SocialLogo>
                     <WebsiteRights> Noteable 2021</WebsiteRights>

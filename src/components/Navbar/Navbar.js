@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Button, Button2 } from '../../globalStyles';
+import { default as logo } from '../../images/logo-nobackground1.svg';
+
 import {
   Nav,
   NavbarContainer,
@@ -10,9 +11,7 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavItemBtn,
   NavLinks,
-  NavBtnLink
 } from './Navbar.elements';
 
 function Navbar() {
@@ -42,7 +41,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
+              <NavIcon src={logo}/>
               Noteable
             </NavLogo>
             <MobileIcon onClick={handleClick}>
