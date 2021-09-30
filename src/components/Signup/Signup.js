@@ -43,7 +43,7 @@ const Signup = ({
                                         <FormInput name="password" id="password" type="password" placeholder="Password" />
                                     </InterFormInputWrapper>
                                     <InterFormInputWrapper>
-                                        <EandPIndicator for="password">Password:</EandPIndicator>
+                                        <EandPIndicator for="password">Re-type Password:</EandPIndicator>
                                         <FormInput name="password" id="password" type="password" placeholder="Password" />
                                     </InterFormInputWrapper>
                                     <InterFormWrapper>
