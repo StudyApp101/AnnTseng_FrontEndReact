@@ -21,7 +21,7 @@ export const MissionText = styled.p`
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 90px 0;
   background: #fff;
 `;
 
@@ -31,23 +31,16 @@ export const InfoRow = styled.div`
   flex-wrap: wrap;
 `;
 
-export const InfoColumn = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 1;
-  max-width: 100%;
-  flex-basis: 50%;
+export const PDFviewer = styled.iframe`
+  height: 80vh;
+  width: 40vw;
+  border: none;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+`;
 
-  @media screen and (max-width: 820px) {
-    max-width: 100%;
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
-  }
+export const Noteviewer = styled.div`
+  height: 80vh;
+  width: 40vw;
+  margin-left: 30px;
+  color: grey;
 `;

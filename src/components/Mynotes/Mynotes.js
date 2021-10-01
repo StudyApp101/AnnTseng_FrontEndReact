@@ -2,11 +2,10 @@ import React from 'react';
 import {Container} from '../../globalStyles';
 
 import { 
-    Heading,
     InfoSec,
     InfoRow,
-    InfoColumn,
-    MissionText,
+    PDFviewer,
+    Noteviewer
 } from './Mynotes.elements';
 const Mynotes = ({
 }) => {
@@ -16,11 +15,8 @@ const Mynotes = ({
             <InfoSec>
                 <Container>
                     <InfoRow>
-                        <InfoColumn>
-                            <MissionText>
-                                Hello!
-                            </MissionText>
-                        </InfoColumn>  
+                        <PDFviewer src="TextPDF.pdf"></PDFviewer>
+                        <Noteviewer> Start typing here... </Noteviewer>
                     </InfoRow>   
                 </Container>
             </InfoSec>
