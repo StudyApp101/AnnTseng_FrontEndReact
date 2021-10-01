@@ -113,7 +113,7 @@ export const SocialLogo = styled(Link)`
 //Website Logo
 export const SocialIcon = styled.img`
   margin-right: 10px;
-  width: 20px;
+  width: 35px;
 `;
 
 export const WebsiteRights = styled.small`

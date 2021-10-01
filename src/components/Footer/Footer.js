@@ -1,5 +1,5 @@
 import React from 'react';
-import { default as logo } from '../../images/logo-nobackground2.svg';
+import { default as logo } from '../../images/logo-light.svg';
 
 import { 
     FooterContainer, 

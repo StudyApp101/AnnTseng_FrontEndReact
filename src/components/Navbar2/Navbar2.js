@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { default as logo } from '../../images/logo-nobackground1.svg';
+import { default as logo } from '../../images/logo-dark.svg';
 
 import {
   Nav,
