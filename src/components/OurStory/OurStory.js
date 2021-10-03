@@ -88,11 +88,7 @@ const OurStory = ({
                         </InfoColumn>
                         <InfoColumn>
                                 <MissionText> 
-                                    Chupa chups dragée cake croissant icing tart gummi bears icing. 
-                                    Liquorice lemon drops danish danish gummi bears gingerbread soufflé gummies fruitcake. 
-                                    Toffee cupcake candy canes caramels tart cookie gummi bears.  
-                                    Chupa chups dragée cake croissant icing gummi.
-                                    Toffee cupcake candy canes caramels tart cookie gummi bears.  
+                                Noteable is made up of a group of students and early career professionals passionate about learning, growing, and challenging ourselves to create a product that helps people get a head start on learning their topics of interest. Our goal is to provide a tool to everyone who wants to learn or relearn anything.  
                                 </MissionText>
                         </InfoColumn>
                         <InfoColumn>
@@ -119,7 +115,7 @@ const OurStory = ({
                         <ProfileImage src={imgAN} alt={altAN} />
                         <ProfileName> Anitha Narnavaram </ProfileName>
                         <ProfileDescription> 
-                            Lead Backend Developer 
+                             Backend Developer 
                         </ProfileDescription>
                     </ProfileContainer>
 
