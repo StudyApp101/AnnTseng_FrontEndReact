@@ -30,6 +30,7 @@ export const Noteviewer = styled.textarea`
 export const InputStyle = styled.input`
   margin-left: 7.2vw;
   margin-bottom: 1vw;
-  font-family: 'Poppins', sans-serif;
-
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  color: black;
 `;
