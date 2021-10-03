@@ -9,6 +9,7 @@ import Feedback from './pages/Feedback/Feedback';
 // import UploadPage from './pages/UploadPage/UploadPage';
 
 import MynotesPage from './pages/MynotesPage/MynotesPage';
+import SummarizePage from './pages/SummarizePage/SummarizePage';
 
 import { Navbar, Navbar2, Footer} from './components';
 import ScrollToTop from './components/ScrollToTop';
@@ -23,6 +24,10 @@ function App() {
         <Route path="/mynotes" exact> 
             <Navbar2/>
             <MynotesPage/>
+        </Route>
+        <Route path="/summarize" exact> 
+            <Navbar2/>
+            <SummarizePage/>
         </Route>
 
 
