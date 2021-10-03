@@ -2,11 +2,11 @@ import React from 'react';
 import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Switch, Route, withRouter, Redirect} from 'react-router-dom';
 import Home from './pages/HomePage/Home';
-import Login from './pages/Login/Login';
-import Signup from './pages/Signup/Signup';
+// import Login from './pages/Login/Login';
+// import Signup from './pages/Signup/Signup';
 import OurStory from './pages/Ourstory/Ourstory';
 import Feedback from './pages/Feedback/Feedback';
-import UploadPage from './pages/UploadPage/UploadPage';
+// import UploadPage from './pages/UploadPage/UploadPage';
 
 import MynotesPage from './pages/MynotesPage/MynotesPage';
 
@@ -26,10 +26,10 @@ function App() {
         </Route>
 
 
-        {/* Upload page */}
+        {/* Upload page
         <Route path="/upload" exact> 
             <UploadPage/>
-        </Route>
+        </Route> */}
 
         {/* Outer pages */}
           <Route path="/" exact> 
@@ -37,16 +37,16 @@ function App() {
             <Home/>
             <Footer/>
           </Route>
-          <Route path="/login" exact> 
+          {/* <Route path="/login" exact> 
             <Navbar/>
             <Login/>
             <Footer/>
-          </Route>
-          <Route path="/signup" exact> 
+          </Route> */}
+          {/* <Route path="/signup" exact> 
             <Navbar/>
             <Signup/>
             <Footer/>
-          </Route>
+          </Route> */}
           <Route path="/ourstory" exact> 
             <Navbar/>
             <OurStory/>

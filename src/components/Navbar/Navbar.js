@@ -44,7 +44,7 @@ function Navbar() {
               <NavIcon src={logo}/>
               Noteable
             </NavLogo>
-            <MobileIcon onClick={handleClick}>
+            {/* <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
@@ -53,7 +53,7 @@ function Navbar() {
                   Log In
                 </NavLinks>
               </NavItem>
-            </NavMenu>
+            </NavMenu> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

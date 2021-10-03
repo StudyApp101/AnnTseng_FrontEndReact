@@ -33,7 +33,7 @@ const InfoSection = ({
                             <TextWrapper>
                                 <Heading>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/signup'>
+                                <Link to='/mynotes'>
                                     <Button big fontBig primary={primary}>
                                         {buttonLabel}
                                     </Button>

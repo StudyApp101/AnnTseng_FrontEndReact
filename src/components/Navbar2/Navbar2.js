@@ -58,7 +58,7 @@ function Navbar2() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/upload' onClick={closeMobileMenu}>
+                <NavLinks to='/mynotes' onClick={closeMobileMenu} target="_blank">
                   Another PDF
                 </NavLinks>
               </NavItem>
