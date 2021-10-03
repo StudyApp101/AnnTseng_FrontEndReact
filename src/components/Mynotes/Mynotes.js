@@ -20,8 +20,8 @@ const Mynotes = ({}) => {
         <>
             <InfoSec>
                 <Container>
+                    <input id="uploadPDF" onChange={onInputChange} type="file" name="file" accept=".pdf"/>
                     <InfoRow>
-                        <input id="uploadPDF" onChange={onInputChange} type="file" name="file" accept=".pdf"/>
                         <PDFviewer src=""></PDFviewer>
                         <Noteviewer> Start typing here... </Noteviewer>
                     </InfoRow>   
