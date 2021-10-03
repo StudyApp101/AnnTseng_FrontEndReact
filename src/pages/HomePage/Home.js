@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
            <InfoSection {...homeObjOne} /> 
-           <VideoSection {...videoSection}/> 
+           {/* <VideoSection {...videoSection}/>  */}
         </>
     )
 }
