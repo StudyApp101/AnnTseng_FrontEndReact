@@ -1,0 +1,11 @@
+<input type="file" accept=".pdf" onchange="loadFile(event)">
+<iframe id="output" height: 1000px; width:1000px;/>
+<script>
+  var loadFile = function(event) {
+    var output = document.getElementById('output');
+    output.src = URL.createObjectURL(event.target.files[0]);
+    output.onload = function() {
+      URL.revokeObjectURL(output.src) // free memory
+    }
+  };
+</script>

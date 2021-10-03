@@ -38,7 +38,7 @@ export const PDFviewer = styled.iframe`
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
 `;
 
-export const Noteviewer = styled.div`
+export const Noteviewer = styled.textarea`
   height: 80vh;
   width: 40vw;
   margin-left: 30px;
