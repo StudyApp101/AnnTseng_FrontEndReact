@@ -5,7 +5,8 @@ import {
     InfoSec,
     InfoRow,
     PDFviewer,
-    Noteviewer
+    Noteviewer,
+    InputStyle
 } from './Mynotes.elements';
 
 
@@ -19,8 +20,8 @@ const Mynotes = ({}) => {
     return (
         <>
             <InfoSec>
+                <InputStyle id="uploadPDF" onChange={onInputChange} type="file" name="file" accept=".pdf"/>
                 <Container>
-                    <input id="uploadPDF" onChange={onInputChange} type="file" name="file" accept=".pdf"/>
                     <InfoRow>
                         <PDFviewer src=""></PDFviewer>
                         <Noteviewer> Start typing here... </Noteviewer>

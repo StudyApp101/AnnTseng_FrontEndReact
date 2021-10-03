@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightBg: true, 
     imgStart: '', 
     lightTextDesc: false, 
-    buttonLabel: 'Demo', 
+    buttonLabel: 'Enter',
     description: 'With Noteable, you can easily type up notes for your PDF documents and break down complex concepts using the text summarization feature!', 
     headline: 'Simplify Your Learning', 
     lightText: false, 
