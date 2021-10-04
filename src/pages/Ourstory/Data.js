@@ -45,7 +45,7 @@ export const ImageAndAlt = {
     //6. Anitha Narnavaram
     imgAN: require('../../images/Members/AnithaNarnavaram.jpeg').default,
     altAN: 'A profile picture of a girl.',
-    textAN1: <p><b>Role:</b> Lead Backend Developer</p>,
+    textAN1: <p><b>Role:</b> Backend Developer</p>,
     textAN2: <p><b>Noteable for:</b> Development (Python, Flask), Database Design (Firebase), GCP, Research</p>, 
     textAN3: <p><b>Fun fact:</b> Get me sweets whenever we meet</p>,
     linkAN: <p><b>Connect: </b><a href="https://www.linkedin.com/in/anithanarnavaram/" rel="noreferrer" target="_blank"> LinkedIn </a></p>,

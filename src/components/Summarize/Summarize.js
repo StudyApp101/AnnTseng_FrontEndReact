@@ -13,11 +13,18 @@ import {
 
 const Summarize = ({}) => {
     var pdffile_url=""
+    var resultOutput=""
     const onInputChange = (e) => {
         pdffile_url=URL.createObjectURL(e.target.files[0])
-        console.log(pdffile_url)
         document.getElementsByTagName('iframe')[0].src=pdffile_url
     };
+
+    const onSummaryChange = (e) => {
+        console.log(e.target.value)
+        resultOutput=e.target.value
+        document.getElementById('result').value=resultOutput
+    };   
+
     return (
         <>
             <InfoSec>
@@ -26,8 +33,8 @@ const Summarize = ({}) => {
                     <InfoRow>
                         <PDFviewer src=""></PDFviewer>
                         <InputDiv>
-                            <Noteviewer> Input some PDF text here... </Noteviewer>
-                            <Noteviewer> Summary is displayed and edited here... </Noteviewer>
+                            <Noteviewer onChange={onSummaryChange}> Input some PDF text here... </Noteviewer>
+                            <Noteviewer id="result"> Output summary space... </Noteviewer>
                         </InputDiv>
                     </InfoRow>  
                 </Container>
